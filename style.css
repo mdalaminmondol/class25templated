@@ -1,0 +1,228 @@
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+body,p span{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* pricing part start */
+.pricing{
+    background: #f6f9fc;
+    padding: 50px;
+}
+
+.pricing .priging-text h6 {
+    color: #0d6efd;
+    font-size: 17px;
+    font-weight: 400;
+}
+.pricing .priging-text h3{
+    font-size: 30px;
+    position: relative;
+}
+.pricing .priging-text h3::before {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 337px;
+    width: 54px;
+    height: 2px;
+    background: #0d6efd;
+}
+.pricing .priging-text p {
+    width: 476px;
+    margin: auto;
+    color: #606060;
+}
+
+.pricing-itam{
+    background: #fff;
+    padding: 50px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    transition: .5s;
+}
+.pricing-itam:hover{
+    background: blue;
+    color: white;
+}
+.pri-dolor{
+    margin-bottom: 100px;
+    position: relative;
+    color: black;
+    transition: 3s;
+}
+.pricing-itam:hover .pri-dolor{
+    color: white;
+} 
+.pri-dolor::before{
+    content: "";
+    position: absolute;
+    top: 142px;
+    left: 73px;
+    width: 218px;
+    height: 2px;
+    background: #ddd;
+   
+}
+.pri-text ul{
+    list-style: none;
+}
+.pri-text ul li {
+    padding: 5px 0;
+    color: #606060;
+    transition: .5s;
+}
+.pricing-itam:hover .pri-text ul li{
+    color: white;
+}
+.start-btn{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    z-index: 99999;
+}
+.start-btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: blue;
+    border-radius: 30px;
+    z-index: -999;
+    transition: .5s;
+    color: white !important;
+    
+}
+.start-btn:hover::before{
+ width: 100%;
+}
+.pricing-itam:hover .start-btn{
+    background: white;
+    color: #0d6efd;
+}
+.start-btn:hover{
+    color: white !important;
+}
+/* pricing part end */
+
+/* slider part start */
+.slider{
+    background:url(./image/free-bg.jpg) no-repeat top center;
+    background-size: cover;
+    padding:100px !important;
+    position: relative;
+    z-index: 1;
+}
+.slider::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4262d596;
+    z-index: -1;
+}
+.slider-text {
+    width: 500px;
+    margin: auto;
+    color: white;
+}
+.slider-text h2{
+    font-size: 35px;
+    position: relative;
+}
+.slider-text h2::before {
+    content: "";
+    position: absolute;
+    top: 102px;
+    left: 215px;
+    width: 60px;
+    height: 2px;
+    background: white;
+}
+.slider-text p{
+    font-weight: 500;
+}
+.purcha-btn{
+    display: inline-block;
+    text-decoration: none;
+    background: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.purcha-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: blue;
+    border-radius: 50px;
+    z-index: -1;
+    transition: .5s;
+}
+.purcha-btn:hover::before{
+    width: 100%;
+   
+}
+.purcha-btn:hover{
+    color: white;
+}
+/* slider part end */
+
+/* newsleater part start */
+.newsleater{
+    background: #f6f9fc;
+    padding: 50px;
+}
+.newsleater-text{
+    background:#3763eb ;
+    padding: 30px 0;
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+.newsleater-itam{
+    margin-left: 50px;
+    color: white;
+}
+.form-div input {
+    display: inline-block;
+    padding: 10px 15px inherit;
+    height: 39px;
+    width: 302px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    padding-left: 19px;
+    margin-right: 20px;
+}
+.form-div .submita {
+    display: inline-block;
+    padding: 10px 15px inherit;
+    height: 39px;
+    width: 181px;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    background: #3763eb;
+}
+.nwe-tex {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    padding: 37px;
+    margin-top: 54px;
+    border-radius: 5px;
+    color:#111;
+}
+/* newsleater part end */
